@@ -1,0 +1,12 @@
+# para criar venv
+
+python -m venv venv
+
+pip install tensorflow matplotlib numpy
+
+
+# para ativar ambiente virtual
+
+source ./venv/bin/activate
+
+ python teste_inferencia.py 
